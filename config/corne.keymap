@@ -68,10 +68,10 @@
 
         lower {
             bindings = <
- &trans  &trans  &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &trans     &trans          &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3     &kp NUMBER_0             &LeftSlash    &kp DELETE
- &trans  &trans       &LeftCurly           &RightCurly  &trans     &trans          &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp KP_MULTIPLY  &kp RIGHT_PARENTHESIS   &kp KP_PLUS
- &trans  &trans     &LeftBracket         &RightBracket  &trans     &trans          &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9       &kp KP_DOT           &kp KP_SLASH  &kp KP_MINUS
-                                          &kp LEFT_GUI     &kp  &kp SPACE          &kp KP_ENTER        &trans  &kp RIGHT_ALT
+ &trans  &trans  &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &trans     &trans          &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3     &kp NUMBER_0                 &trans    &kp DELETE
+ &trans  &trans           &trans                &trans  &trans     &trans          &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp KP_MULTIPLY  &kp RIGHT_PARENTHESIS   &kp KP_PLUS
+ &trans  &trans           &trans                &trans  &trans     &trans          &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9       &kp KP_DOT           &kp KP_SLASH  &kp KP_MINUS
+                                          &kp LEFT_GUI  &trans  &kp SPACE          &kp KP_ENTER        &trans  &kp RIGHT_ALT
             >;
         };
 
