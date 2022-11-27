@@ -57,7 +57,7 @@
           &kp ESC          &kp N1          &kp N2        &kp N3           &kp N4              &kp N5            &kp N6         &kp N7  &kp N8  &kp N9  &kp N0     &kp DEL
    &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp C_AC_SCROLL_UP          &kp HOME    &kp PAGE_UP  &trans  &trans  &trans  &kp INSERT
  &kp LEFT_CONTROL          &trans          &trans        &trans           &trans   &kp K_SCROLL_DOWN           &kp END  &kp PAGE_DOWN  &trans  &trans  &trans      &trans
-                                                   &kp LEFT_GUI           &trans              &trans            &trans         &trans  &trans
+                                                   &kp LEFT_GUI           &trans              &trans            &trans          &mo 3  &trans
             >;
         };
 
@@ -66,7 +66,7 @@
  &trans  &trans  &kp LS(NUMBER_8)  &kp LEFT_PARENTHESIS  &trans     &trans          &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3     &kp NUMBER_0                 &trans    &kp DELETE
  &trans  &trans            &trans                &trans  &trans     &trans          &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp KP_MULTIPLY  &kp RIGHT_PARENTHESIS   &kp KP_PLUS
  &trans  &trans            &trans                &trans  &trans     &trans          &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9       &kp KP_DOT           &kp KP_SLASH  &kp KP_MINUS
-                                           &kp LEFT_GUI  &trans  &kp SPACE          &kp KP_ENTER        &trans  &kp RIGHT_ALT
+                                           &kp LEFT_GUI   &mo 3  &kp SPACE          &kp KP_ENTER        &trans  &kp RIGHT_ALT
             >;
         };
 
