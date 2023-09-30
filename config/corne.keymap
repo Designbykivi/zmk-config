@@ -54,10 +54,10 @@
 
         raise {
             bindings = <
-&kp ESC               &kp N1           &kp N2          &kp N3        &kp N4           &kp N5           &kp N6    &kp N7         &kp N8  &kp N9           &kp N0           &kp DEL
-&hm LEFT_SHIFT HOME   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP      &kp HOME  &kp PAGE_UP    &trans  &kp PIPE         &kp RIGHT_BRACE  &kp INSERT
-&hm LEFT_CONTROL END  &kp NON_US_BSLH  &trans          &trans        &trans           &kp PAGE_DOWN    &kp END   &kp PAGE_DOWN  &trans  &kp EXCLAMATION  &kp UNDERSCORE   &kp RIGHT_PARENTHESIS
-                                                       &trans        &trans           &trans           &trans    &mo 3          &trans
+&kp ESC               &kp N1           &kp N2            &kp N3        &kp N4            &kp N5           &kp N6    &kp N7         &kp N8  &kp N9           &kp N0           &kp DEL
+&hm LEFT_SHIFT HOME   &kp LEFT_ARROW   &kp DOWN_ARROW    &kp UP_ARROW  &kp RIGHT_ARROW   &kp PAGE_UP      &kp HOME  &kp PAGE_UP    &trans  &kp PIPE         &kp RIGHT_BRACE  &kp INSERT
+&hm LEFT_CONTROL END  &kp NON_US_BSLH  &kp LS(NUMBER_4)  &kp LS(N5)    &kp LS(NUMBER_6)  &kp PAGE_DOWN    &kp END   &kp PAGE_DOWN  &trans  &kp EXCLAMATION  &kp UNDERSCORE   &kp RIGHT_PARENTHESIS
+                                                         &trans        &trans            &trans           &trans    &mo 3          &trans
             >;
         };
 
